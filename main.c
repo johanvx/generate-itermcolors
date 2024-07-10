@@ -256,7 +256,8 @@ struct itermcolor_item itermcolor_item_from_string(char *string)
     }
 
     char *key = malloc(key_len + 1);
-    memcpy(key, string, key_len + 1);
+    memcpy(key, string, key_len);
+    key[key_len] = '\0';
 
     double r = (16 * table[(uchar)color[1]] + table[(uchar)color[2]]) / 255.0;
     double g = (16 * table[(uchar)color[3]] + table[(uchar)color[4]]) / 255.0;
