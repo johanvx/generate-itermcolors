@@ -1,0 +1,7 @@
+cflags = -Wall -Wextra -Werror
+std = -std=c11
+
+rule cc
+    command = cc -o $out $in $std $cflags
+
+build generate-itermcolors: cc main.c
