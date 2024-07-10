@@ -288,7 +288,7 @@ void print_help_message(char *program_name)
         "A simple tool that generates .itermcolors file for iTerm2 theming\n");
     printf("\n");
     printf("Usage: %s build <INPUT> <OUTPUT>\n", program_name);
-    printf("Usage: %s new <OUTPUT>\n", program_name);
+    printf("       %s new <OUTPUT>\n", program_name);
     printf("\n");
     printf("Commands:\n");
     printf("    build   Compile an input file to a .itermcolors file\n");

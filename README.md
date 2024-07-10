@@ -12,7 +12,7 @@ Just `make` it or use `ninja` to build it.
 A simple tool that generates .itermcolors file for iTerm2 theming
 
 Usage: ./generate-itermcolors build <INPUT> <OUTPUT>
-Usage: ./generate-itermcolors new <OUTPUT>
+       ./generate-itermcolors new <OUTPUT>
 
 Commands:
     build   Compile an input file to a .itermcolors file
